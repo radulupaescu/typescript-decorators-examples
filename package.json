@@ -1,0 +1,14 @@
+{
+    "name": "typescript-decorators",
+    "version": "1.0.0",
+    "description": "App for demonstrating how typescript decorators work.",
+    "scripts": {
+        "start": "tsc-watch --project . --outDir ./dist --onSuccess \"node ./dist/index.js \""
+    },
+    "author": "Radu Lupaescu",
+    "dependencies": {
+        "reflect-metadata": "^0.1.13",
+        "tsc-watch": "^4.6.0",
+        "typescript": "^4.5.4"
+    }
+}
